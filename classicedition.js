@@ -65,7 +65,7 @@ function citytax() {
 	addAlert(player[turn].name + " paid $200 for landing on City Tax.");
 	player[turn].pay(200, 0);
 
-	$("#landed").show().text("You landed on City Tax. Pay $200.");
+	$("#landed").show().text("Lex Luthor wants money. Pay $200.");
 }
 
 var square = [];
